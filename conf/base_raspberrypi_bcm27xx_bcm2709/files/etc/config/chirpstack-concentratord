@@ -1,0 +1,11 @@
+config global
+    option enabled          '1'
+    option chipset          'sx1302'
+
+config sx1302
+    option model            'seeed_wm1302'
+    option region           'EU868'
+    option channel_plan     'eu868'
+    option gnss             0
+    option usb              0
+    option antenna_gain     '2'
